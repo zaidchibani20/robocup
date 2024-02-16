@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+#logo {
+    width: 150px;
+    margin-left: 10px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.container h1 {
+    margin: 0 auto;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
