@@ -58,7 +58,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to right,rgb(226, 172, 13),rgb(241, 221, 149)100%) ;
+    background-image: linear-gradient(to right,rgb(226, 172, 13),rgb(236, 208, 127)100%) ;
     z-index: -1;
     transition: .5s ease-in-out;
     display: block;
@@ -92,7 +92,7 @@ body {
      position: absolute;
      top: 0;
      left: 0;
-     background-image: linear-gradient(to right,rgb(226, 172, 13),rgb(241, 221, 149)100%) ;
+     background-image: linear-gradient(to right,rgb(226, 172, 13),rgb(236, 208, 127)100%) ;
      z-index: -1;
      transition: .5s ease-in-out;
      display: block;
