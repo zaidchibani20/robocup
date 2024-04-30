@@ -8,12 +8,28 @@ body {
     height: 100vh;
     color: white;
 }
-
+.blurry-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+    z-index: 1; /* Ensure the navbar stays above other content */
+  }
+  
+ nav {
+    display: flex;
+    
+    align-items: center;
+    height: 100px; /* Adjust the height of the navbar as needed */
+  }
+  
 #logo {
-    width: 150px;
-    margin-left: 20px; 
-    position: absolute;
-    top: 10px;
+    width: 100px; 
+  margin-left: 30px
+  
 }
 
 .container {
@@ -101,4 +117,12 @@ body {
  .button2:hover::before{
      width: 150px;
  }
- 
+ #video-bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;}
