@@ -147,6 +147,7 @@ z-index: 1;
     }
     
 .imgContainer{
+        margin-top: 300px;
         width: 40%;
         height: 300px;
         position: absolute;
